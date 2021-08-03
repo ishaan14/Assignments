@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav {
+    background-color: orange;
+    color:white;
+    display:flex; 
+    justify-content: space-around;
+    height:75px;
+    align-items: center;
+    flex-wrap:wrap;
+}
+ul:nth-of-type(1){
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    width:400px;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+li{
+    padding:10px;
+    font-size: 20px;
+}
+li:hover {
+    background-color:tomato;
+}
+#head1{
+    font-size: 30px;
+}
+#head2{
+    text-align:center;
+}
+#slider{
+    margin:40px auto;
+    width:80vw;
+    height:800px;
+    overflow:hidden;
+}
+#slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width:20%;
+    float:left;
+}
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+.fig{
+    width:350px;
+    border:1px solid gainsboro;
+    border-radius: 4%;
+    border-width: 5px;
+}
+.fig img{
+    height:250px;
+    width:100%;
+    border-radius: 5%;
+}
+figcaption{
+    padding:10px 20px ;
+    margin:10px;
+    font-size:16px;
+}
+.container{
+    margin-top:40px;
+    width:75vw;
+    margin-left:200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#head3{
+    text-align:center;
+    margin:40px
+}
+#box{
+    width:75vw;
+    height:500px;
+    margin-left:190px;
+    display: flex;
+    box-shadow: 15px 15px 15px 15px rgba(60,60,60,0.5);
+}
+aside{
+    width:30vw;
+    height:100%;
+    background-color: orange;
+    color:white;
+    float:left;
+}
+input[type="text"],input[type="tel"],input[type="email"]{
+    border:2px solid orange;
+    height:35px;
+    width:25vw;
+    margin-left:35px;
+    margin-top: 15px;
+}
+textarea{
+    border:2px solid orange;
+    width:50vw;
+    height:150px;
+    margin-left:35px;
+    margin-top: 15px;
+}
+input[type="submit"]{
+    width:50vw;
+    border:2px solid orange;
+    background-color: orange;
+    color:white;
+    height:50px;
+    margin-left:35px;
+}
+aside div{
+    font-size: 140px;
+    text-align: center;
+}
+aside h1,h3{
+    text-align: center;
+}
+#form1{
+    display:flex;
+    flex-wrap:wrap;
+}
+#bottom{
+    background-color: rgba(60,60,60,0.7);
+    height:140px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+span{
+    height:50px;
+    width:50px;
+    font-size:30px;
+    background-color:orange;
+    border-radius: 100%;
+    text-align:center;
+    margin-top: 20px;
+}
+@media screen and (max-width:844px){
+    textarea {
+        width:30vw;
+    }
+    input[type="submit"]{
+        width:30vw;
+    }
+    nav li{
+        font-size:1rem;
+    }
+}
+span:hover{
+    cursor:pointer;
+}
