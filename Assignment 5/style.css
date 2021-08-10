@@ -1,0 +1,47 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.row{
+    margin-top: 20px;
+}
+.container{
+    margin:30px auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    width:90%;
+    height:247px;
+}
+#intro p{
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+}
+#info{
+    margin-top:20px;
+    padding:20px;
+    background-color:white;
+}
+#projects{
+    padding:20px;
+    margin-top:20px;
+    background-color:white;
+}
+#languages{
+    padding:20px;
+    margin-top:20px;
+    background-color:white;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#button1{
+    text-align: center;
+}
+#first{
+    color:white;
+}
