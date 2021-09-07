@@ -1,0 +1,71 @@
+body{
+    height:100vh;
+    font-family:sans-serif;
+    display:flex;
+    justify-content: space space-evenly;
+    background-image: url('https://www.bbva.com/wp-content/uploads/en/2017/11/app-weather-mobile-bbva.jpg');
+    align-items: center;
+}
+#main > div{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#myDiv{
+    background:rgba(256,256,256,.5);
+    width:40vw;
+    text-align:center;
+    border:3px solid black;
+    box-shadow: 5px 10px #888888;
+    padding:20px;
+}
+#main{
+    width:40vw;
+    text-align:center;
+    background:rgba(256,256,256,.6);
+}
+#myDiv,#main{
+    margin:10px auto;
+}
+input{
+    border:2px solid black;
+    margin:10px auto;
+    width:25vw;
+    height:30px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    background-color:rgba(200,200,200,0.1);
+    border-radius:10px;
+}
+button{
+    border:1 px solid black;
+    margin:auto;
+    width:215px;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:seashell;
+    cursor:pointer;
+}
+#location{
+    font-size:20px;
+}
+#time{
+    font-size:20px;
+}
+#temp{
+    font-size:30px;
+}
+#minmax{
+    font-size:15px;
+}
+#weather{
+    font-size:20px;
+}
+#speed{
+    font-size:20px;
+}
