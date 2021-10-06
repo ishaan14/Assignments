@@ -1,0 +1,105 @@
+html { 
+    background: url('https://images.unsplash.com/photo-1559137781-875af01c14bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+section{
+    border:2px solid #001d3d;
+    margin:20px auto;
+    width:460px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+li{
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin:auto;
+    text-align: center;
+    border-collapse: collapse;
+    width:75%;
+}
+td{
+    padding:5px;
+    width: 70%;
+    text-align: center;
+}
+#lastrow{
+    border-bottom: 5px solid black;
+}
+#firstrow{
+    border-top: 2.5px solid black;
+}
+#enter{
+    width: 200px;
+    height:50px;
+    color: rgb(156, 126, 70);
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#enter:hover{
+    cursor:pointer;
+}
+#delete{
+    background-color:#43aa8b;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#delete:hover{
+    cursor:pointer;
+}
+#exit{
+    background-color: #4895ef;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#exit:hover{
+    cursor:pointer;
+}
+#submit{
+    font-size: large;
+    width: 200px;
+    height:40px;
+}
+#submit:hover{
+    cursor:pointer;
+}
+#reg{
+    text-align: center;
+}
+label{ 
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;} label:after { content: ": " 
+}
+fieldset { border: 1px solid #CCA383; width: 400px; background: #FFE8EF; padding: 3px; } fieldset legend { background: #CCA383; padding: 6px; font-weight: bold; }
+#anchor{
+    display:flex;
+    justify-content:center;
+}
+input{
+    border-radius: 5px;
+    height:22px;
+}
+#final_exit{
+    background-color:#43aa8b;
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#final_exit:hover{
+    cursor:pointer;
+}

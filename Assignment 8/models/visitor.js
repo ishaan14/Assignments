@@ -1,0 +1,45 @@
+const mongoose = require('mongoose');
+const visitorSchema=new mongoose.Schema({
+    name:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    email:{
+        type:String,
+        required:true,
+        trim:true,
+    },
+    phone:{
+        type:String,
+        trim:true,
+    },
+    cinh:{
+        type:Number,
+        min:0,
+        max:23,
+        required:true,
+    },
+    cinm:{
+        type:Number,
+        min:0,
+        max:59,
+        required:true,
+    },
+    couth:{
+        type:Number,
+        min:0,
+        max:23,
+    },
+    coutm:{
+        type:Number,
+        min:0,
+        max:59,
+    },
+    status:{
+        type:String,
+        default:"Present"
+    }
+});
+const Visitor=mongoose.model('Visitor',visitorSchema);
+module.exports=Visitor;
