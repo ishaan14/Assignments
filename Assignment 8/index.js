@@ -5,7 +5,8 @@ const path=require('path');
 const Visitor=require('./models/visitor');
 const methodOverride=require('method-override');
 require('dotenv').config();
-mongoose.connect('mongodb://localhost:27017/visitorsdb')
+const db=('mongodb+srv://ishaan14:123098abzy@cluster0.safj0.mongodb.net/visitorsdb?retryWrites=true&w=majority' || 'mongodb://localhost:27017/visitorsdb');
+mongoose.connect(db)
 .then(()=>{
     console.log("successfuly connected");
 })
